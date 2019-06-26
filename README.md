@@ -36,15 +36,13 @@ Let's begin by writing a script that will create the new component.
    #! /bin/bash
 
    echo What\'s the Component Name?
+
+   read componentname
+
+   mkdir $componentname &&
+   cd $componentname &&
+   touch $componentname.jsx
    ```
-
-
-    read componentname
-
-    mkdir $componentname &&
-    cd $componentname &&
-    touch $componentname.jsx
-    ```
 
 Lets go over what's happening here.
 
