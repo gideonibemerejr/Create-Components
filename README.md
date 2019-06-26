@@ -16,17 +16,15 @@ This assumes you will be in a file system created by [Create React App](https://
 
 ## Writing the Script
 
-Let's begin writing a script that will create the new component. This will be the script that the computer will run through to create the directories.
+Let's begin by writing a script that will create the new component.
 
-1. Move into the Home `~/` directory by running `$ cd ~`
-
-2. Once inside of the Home directory run:
+1. Run the following:
    ```
-   $ touch .newapp.sh && code .newapp.sh
+   $ touch ~/.newcomponent.sh && code ~/.newcomponent.sh
    ```
    This is the command for [VS Code](https://code.visualstudio.com/). Change to editor of choice.
    
-3. Write the following code in the `.newapp.sh` file:
+3. Write the following code in the `.new.sh` file:
 
    ```
    #! /bin/bash
